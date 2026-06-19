@@ -1,0 +1,43 @@
+TRABALHO PRÁTICO II - BACK-END E FRONT-END
+
+
+INFORMAÇÃO DO AUTOR:
+- Aluno: Kauan Silva
+- Instituição: Universidade Estadual de Goiás (UEG)
+
+FINALIDADE DO SISTEMA:
+O sistema consiste em um catálogo digital de e-commerce automatizado para a 
+empresa DGM Peças. A aplicação gerencia o ciclo completo de persistência de 
+produtos (CRUD) conectando uma interface web dinâmica de front-end a um servidor 
+back-end robusto e escalável que opera diretamente na nuvem.
+
+RECURSOS UTILIZADOS:
+- Front-end: HTML5, CSS3, JavaScript estruturado (Manipulação de DOM e Fetch API)
+- Back-end: Node.js, Express Framework (Gerenciamento de rotas HTTP e middlewares)
+- Banco de Dados: MongoDB Atlas (Banco de dados NoSQL hospedado em nuvem)
+- ODM: Mongoose (Modelagem de objetos, definição de Schemas e validação de dados)
+- Arquitetura: Padrão MVC integrado com camadas especialistas de Service e Repository
+- Ferramenta de Testes: Postman (Validação e simulação das requisições da API REST)
+
+DECLARAÇÃO DO USO CONSCIENTE DE INTELIGÊNCIA ARTIFICIAL (IA):
+Em cumprimento aos princípios éticos e regulamentos estabelecidos para este trabalho, 
+declara-se que ferramentas de IA generativa (Gemini/Chatgpt) foram utilizadas estritamente 
+como ferramenta de apoio, depuração e suporte educacional à aprendizagem:
+
+1. Finalidades da utilização de IA:
+   - Auxílio na análise de logs de erro e rastreamento da pilha de chamadas.
+   - Apoio na refatoração e padronização da nomenclatura de métodos assíncronos que 
+     fazem a ponte entre as camadas de Controller, Service e Repository.
+   - Resolução de exceções de runtime (Erros 500 do HTTP) causadas por referências nulas.
+
+2. Prompts utilizados no processo de desenvolvimento:
+   - "como corrigir erro TypeError: argument handler must be a function no Express no arquivo de rotas"
+   - "como mapear a arquitetura multicamadas garantindo que o Controller chame o Service e o Service acesse o Repository"
+   - "como tratar o erro de execução 'produtoService.deletarProduto is not a function' no fluxo do Node.js"
+   - "porque acontece o erro 'Could not connect to any servers in your MongoDB Atlas cluster' e como configurar IP Whitelisting"
+
+O código não foi gerado 100% por Inteligência Artificial. Sendo o desenvolvimento de software 
+uma área de aprendizado complexa e desafiadora, busco praticar ao máximo para fixar os conteúdos. 
+Dessa forma, utilizei as ferramentas de IA de maneira ativa para compreender pontos críticos, 
+principalmente em estruturação de software, refatoração de arquitetura e como guia para resolver 
+os erros técnicos que surgiram ao longo do desenvolvimento do projeto.
